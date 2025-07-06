@@ -1,4 +1,43 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Youssef Web Development Agency
+
+A modern, responsive web development agency website built with Next.js, showcasing services, portfolio, and contact information.
+
+## Project Overview
+
+This website serves as a professional platform for a web development agency, featuring:
+
+- Modern, responsive design with dark theme
+- Interactive UI elements with smooth animations
+- Portfolio showcase with filterable projects
+- Contact form for client inquiries
+- Performance statistics and growth visualization
+
+## Technologies Used
+
+### Core Technologies
+- **Next.js 14** - React framework with App Router for efficient page routing and rendering
+- **React 18** - For building interactive user interfaces
+- **Tailwind CSS** - For responsive, utility-first styling
+- **Framer Motion** - For smooth animations and transitions
+
+### UI Components & Visualization
+- **Recharts** - For data visualization (bar charts, pie charts)
+- **AOS (Animate On Scroll)** - For scroll-based animations
+- **Next/Image** - For optimized image loading and display
+
+### Development Tools
+- **ESLint** - For code quality and consistency
+- **Prettier** - For code formatting
+
+## Features
+
+- **Responsive Design** - Fully responsive layout that works on all devices
+- **Dark Theme** - Modern dark theme with blue accents for better readability
+- **Interactive UI** - Hover effects, animations, and transitions for engaging user experience
+- **Portfolio Gallery** - Showcase of projects with filtering capabilities
+- **Contact Form** - Client inquiry form with validation
+- **Performance Metrics** - Visual representation of growth and statistics
+- **SEO Optimized** - Built with SEO best practices
 
 ## Getting Started
 
