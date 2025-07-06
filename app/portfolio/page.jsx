@@ -1,4 +1,4 @@
-export const revalidate = 3600; // Revalidate every hour for ISR
+"use client";
 
 import { useEffect } from "react";
 import Image from "next/image";
@@ -9,7 +9,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { PieChart, Pie, BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, Cell } from 'recharts';
 
-export default function PortfolioPage() {
+export default function PortfolioClient() { // Renamed the component to PortfolioClient
   useEffect(() => {
     AOS.init({
       duration: 800,
@@ -351,5 +351,4 @@ export default function PortfolioPage() {
       <Footer />
     </>
   );
-}
-
+};
