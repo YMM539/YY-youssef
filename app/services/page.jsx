@@ -1,3 +1,5 @@
+"use client"; // Add this line
+
 export const dynamic = 'force-static';
 
 import { useEffect } from "react";

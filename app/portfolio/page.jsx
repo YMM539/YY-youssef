@@ -1,3 +1,5 @@
+"use client"; // Add this line
+
 export const revalidate = 3600; // Revalidate every hour for ISR
 
 import { useEffect } from "react";
